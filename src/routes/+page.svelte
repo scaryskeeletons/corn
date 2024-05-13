@@ -33,7 +33,7 @@
       };
     });
   </script>
-  //Social links
+  //Social links added
   <div class="social-links">
     <a href="https://twitter.com/popcorncatcoin" target="_blank" rel="noopener" class="social-link">
         <img src="https://github.com/scaryskeeletons/images/raw/main/twitter.webp" alt="Twitter"/>
