@@ -24,8 +24,8 @@
           }, 1000 * animation_length);
       }
 
-      // Create a kernel every second
-      const intervalId = setInterval(createPopcorn, 1000);
+      // Create a kernel 800ms
+      const intervalId = setInterval(createPopcorn, 800);
 
       // Clean up the interval when the component is destroyed
       return () => {

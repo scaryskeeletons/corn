@@ -11,7 +11,7 @@ html {
   background-size: 100px 100vh;
   background-repeat: repeat-x;
   background-position: 0% 0%;
-  animation: switchColors 0.4s infinite;
+  animation: switchColors 2s infinite;
 }
 
 body {
