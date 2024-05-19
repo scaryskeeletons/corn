@@ -40,7 +40,7 @@
       <a href="https://x.com/sprinklesrip" target="_blank" rel="noopener" class="social-link">
           <img src="https://github.com/scaryskeeletons/images/raw/main/twitter.webp" alt="Twitter"/>
       </a>
-      <a href="https://dexscreener.com/solana/coming_soon" target="_blank" rel="noopener" class="social-link">
+      <a href="https://www.pump.fun/BaqoQxuZGFVvHTz94Bwae3VHEpv7VdsVUXb4xmoRWoUV" target="_blank" rel="noopener" class="social-link">
           <img src="https://github.com/scaryskeeletons/images/raw/main/dexscreener.webp" alt="Dex Screener"/>
       </a>
       <a href="https://t.me/sprinklesrip" target="_blank" rel="noopener" class="social-link">
