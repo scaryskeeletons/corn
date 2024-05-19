@@ -82,6 +82,8 @@ iframe {
 }
 
 .story {
+  display: block;
+  text-align: center;
   background: #fff5e6c6;
 }
 

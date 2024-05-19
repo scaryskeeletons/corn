@@ -61,7 +61,7 @@
       Sprinkles, a cat famous for the YouTube video "Cat terrified by popcorn" was a cat who was quite quirky and fun.
   </p>
   <p>
-      Unfortunately one day Sprinkles went to the doctor and while getting a teeth cleaning Sprinkles tragically passed away at just two years old.
+      Unfortunately one day Sprinkles went to the doctor and while getting a teeth cleaning Sprinkles tragically passed away from anesthesia at just two years old.
   </p>
   <p>
       Today $SPRINKLES represents a celebration of life and provides a way for the story of Sprinkles to live forever in our hearts.
