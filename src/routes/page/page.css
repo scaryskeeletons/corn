@@ -1,41 +1,172 @@
-/* General styling for full-screen header */
-.header {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
+@font-face {
+  font-family: heyam;
+  src: url(heyam.ttf) format("truetype");
 }
 
-/* Styling for the image to cover the entire header */
-.header-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform: scale(1.05);
+@font-face {
+  font-family: kindergarten;
+  src: url(kindergarten.ttf) format("truetype");
+}
+
+body {
+  padding-bottom: 33.33%; /* Aspect ratio of 1:1 */
+  background: linear-gradient(#06b6d4, #3b82f6);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   filter: url(#filter);
+}
+
+.navbar {
+  width: 40%;
+  background: hsla(219, 41%, 70%, 0.1); /* Manatee-themed color */
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: inherit;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'heyam';
+  color: #ffffff; /* Darker shade for contrast */
+  text-decoration: none;
+  z-index: inherit;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  z-index: inherit;
+}
+
+.nav-item {
+  margin-left: 2rem;
+  z-index: inherit;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'kindergarten';
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  z-index: inherit;
+}
+
+.nav-link:hover {
+  color: #BFD7EA; /* Lighter shade for hover effect */
+  z-index: inherit;
+}
+
+/* General styling for sections */
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* Specific sections with slightly darker background */
+#story, #tokenomics, #roadmap {
+  background-color: rgba(0, 0, 0, 0.1); /* Slightly darker background */
 }
 
 /* Styling for the main content */
 .main {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 1rem;
   text-align: center;
 }
 
-.main-heading {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
+.snooty {
+  width: 59%;
+  animation: float 6s ease-in-out infinite;
 }
 
-/* Styling for the demo div element */
-.demo-div {
-  width: 33.33%;
-  padding-bottom: 33.33%; /* Aspect ratio of 1:1 */
-  background: linear-gradient(to right, #06b6d4, #3b82f6);
-  margin: 0 auto;
-  filter: url(#filter);
+/* Full-screen header styling */
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Overlay styling */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  opacity: 0.5;
+  background: url(https://images.unsplash.com/photo-1492931307820-62fa5a68e0df?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2Njk3MDN8&ixlib=rb-4.0.3&q=85);
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(-40px, -20px);
+  }
+}
+
+@keyframes bubbles {
+  0% { 
+    transform: scale(.1); 
+    bottom: 0; /* Start from the bottom of the screen */
+  }
+  3% { 
+    transform: scale(2); 
+  }
+  6% { 
+    transform: scale(1); 
+  }
+  100% { 
+    transform: scale(1) rotate(720deg); 
+    bottom: 100%; /* End at the top of the screen */
+  }
+}
+
+.bubble {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.574);
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: 'heyam';
+  font-size: 32px;
+}
+
+h2 {
+  font-family: 'heyam';
+}
+
+p {
+  font-family: 'kindergarten';
+  font-size: 20px;
 }
