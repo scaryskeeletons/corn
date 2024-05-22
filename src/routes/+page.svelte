@@ -1,5 +1,6 @@
 <script>
     import { onMount } from 'svelte';
+    import { writable } from 'svelte/store';
     import { scrollTo, scrollRef, scrollTop } from 'svelte-scrolling'
 
     let animation_length = 4; // Speed at which bubbles rise
