@@ -4,10 +4,7 @@ export const languages = {
       changeLanguage: "Change Language"
     },
     es: {
-      welcome: "Bienvenido",
+      welcome: "Snooty",
       changeLanguage: "Cambiar idioma"
-    },
-    cn: {
-
     }
   };
